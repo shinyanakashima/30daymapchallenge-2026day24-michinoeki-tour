@@ -1,0 +1,91 @@
+{
+  "stations": 128,
+  "list_retrieved": {
+    "ichiran.html": {
+      "url": "https://hokkaido-michinoeki.jp/ichiran/",
+      "retrieved": "2026-11-08"
+    },
+    "en.html": {
+      "url": "https://hokkaido-michinoeki.jp/en/",
+      "retrieved": "2026-11-08"
+    },
+    "mlit_list.xlsx": {
+      "url": "https://www.mlit.go.jp/road/Michi-no-Eki/file/list.xlsx",
+      "retrieved": "2026-11-08"
+    }
+  },
+  "osm_data_timestamp": "2026-11-07T00:12:21Z",
+  "loop_distance_km": 3915.4,
+  "loop_duration_h": 54.2,
+  "municipalities_with_station": 116,
+  "by_start": {
+    "sapporo": {
+      "distance_km": 3925.2,
+      "duration_h": 54.36,
+      "days_at_8h": 7,
+      "municipalities_passed": 154
+    },
+    "asahikawa": {
+      "distance_km": 3916.0,
+      "duration_h": 54.23,
+      "days_at_8h": 7,
+      "municipalities_passed": 154
+    },
+    "obihiro": {
+      "distance_km": 3918.1,
+      "duration_h": 54.23,
+      "days_at_8h": 7,
+      "municipalities_passed": 154
+    },
+    "hakodate": {
+      "distance_km": 3918.5,
+      "duration_h": 54.34,
+      "days_at_8h": 7,
+      "municipalities_passed": 154
+    },
+    "kushiro": {
+      "distance_km": 3921.2,
+      "duration_h": 54.37,
+      "days_at_8h": 7,
+      "municipalities_passed": 154
+    },
+    "chitose": {
+      "distance_km": 3926.5,
+      "duration_h": 54.43,
+      "days_at_8h": 7,
+      "municipalities_passed": 154
+    }
+  },
+  "solver": {
+    "objective": "driving time (OSRM car profile)",
+    "ortools_metaheuristic": "GUIDED_LOCAL_SEARCH",
+    "time_limit_per_run_s": 300,
+    "best": "LKH-3 via elkai, 1000 runs",
+    "runs": [
+      {
+        "strategy": "PATH_CHEAPEST_ARC",
+        "duration_s": 196759.0
+      },
+      {
+        "strategy": "CHRISTOFIDES",
+        "duration_s": 196277.8
+      },
+      {
+        "strategy": "SAVINGS",
+        "duration_s": 195664.7
+      },
+      {
+        "strategy": "LOCAL_CHEAPEST_INSERTION",
+        "duration_s": 196115.0
+      },
+      {
+        "strategy": "LKH-3 via elkai, 1000 runs",
+        "duration_s": 195118.9,
+        "seconds": 295.9
+      }
+    ],
+    "wall_time_s": 1495.9,
+    "lkh_runs": 1000
+  },
+  "built": "2026-11-08"
+}
